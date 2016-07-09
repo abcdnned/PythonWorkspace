@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CLEAN_SIZE	.\gameshell.py	/^CLEAN_SIZE=500$/;"	v
+FONT_HEIGHT	.\gameshell.py	/^FONT_HEIGHT=16$/;"	v
+GameShell	.\gameshell.py	/^class GameShell:$/;"	c
+MAX_SIZE	.\gameshell.py	/^MAX_SIZE=2000$/;"	v
+PAGE_SIZE	.\gameshell.py	/^PAGE_SIZE=25$/;"	v
+SCREEN_SIZE	.\gameshell.py	/^SCREEN_SIZE=(800,400)$/;"	v
+SagaShell	.\gameshell_test.py	/^class SagaShell(gameshell.GameShell):$/;"	c
+__init__	.\gameshell.py	/^    def __init__(self):$/;"	m	class:GameShell
+__init__	.\gameshell_test.py	/^    def __init__(self):$/;"	m	class:SagaShell
+command	.\gameshell.py	/^    def command(self,cmd):$/;"	m	class:GameShell
+game	.\gameshell_test.py	/^game=SagaShell()$/;"	v
+gameshell	.\gameshell_test.py	/^import gameshell$/;"	i
+getTitle	.\gameshell.py	/^    def getTitle(self):$/;"	m	class:GameShell
+getTitle	.\gameshell_test.py	/^    def getTitle(self):$/;"	m	class:SagaShell
+interact	.\gameshell.py	/^    def interact(self,event):$/;"	m	class:GameShell
+pygame	.\gameshell.py	/^import pygame$/;"	i
+re	.\gameshell_test.py	/^    def re(self):$/;"	m	class:SagaShell
+render	.\gameshell.py	/^    def render(self):$/;"	m	class:GameShell
+start	.\gameshell.py	/^    def start(self):$/;"	m	class:GameShell

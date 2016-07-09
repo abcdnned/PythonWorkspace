@@ -1,0 +1,2 @@
+class Clan(object):
+    pass

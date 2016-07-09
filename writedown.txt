@@ -1,0 +1,16 @@
+custom command
+按leader加上，自动保存并且执行上一条命令
+split one line to multi lines
+learn some example about command s
+insert before first word in line.
+
+add debug feature to the python vim ide
+add complete feature to the python vim ide
+
+
+add leader command to enable deleteing all pring lines at onece.
+
+move to the last modify locatoin.
+
+quick comments in python
+

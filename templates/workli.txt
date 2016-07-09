@@ -1,0 +1,3 @@
+{% for wk in wkli %}
+{{wk[0].name}} = {{wk[1]}}
+{% endfor %}
