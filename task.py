@@ -9,7 +9,7 @@ PRO=0
 LOG=0
 WARN=1
 
-tasks=[]
+TASKS=[]
 
 class archive(object):
     def __init__(self):
@@ -24,12 +24,18 @@ class archive(object):
         self.product.append([pridcut_type,product,number])
 
 class task(object):
+
     def __init__(self,name):
         self.name=name
         self.members={}
-        tasks.append(self)
 
-    def assign(self,man,num,arg):
+    ori=task('donothing')
+    
+    @staticmethod
+    def of(arg):
+        return ori
+
+    def assign(self,man,num):
         self.members[man]=self.members[man]+num if man in self.members else num
 
     def proceed(self):
@@ -77,5 +83,3 @@ snipe=task('snipe')
 
 
     
-        
-

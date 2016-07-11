@@ -90,9 +90,7 @@ class Wpanel(PropertyPanel):
 
     def property_type(self):
         return THING_WORKER
-#    def render(self):
-#        wt=env.get_template('workli.txt')
-#        return wt.render(wkli=filter(lambda i:i[0].cata==THING_WORKER,Clan.thing.items())).split('\n')
+
 class Ppanel(PropertyPanel):
     def getkey(self):
         return pygame.K_p
@@ -101,8 +99,10 @@ class Tpanel(subpanel):
     def getkey(self):
         return pygame.K_t
     
-    def render(self,cache):
-        pass
+    def render(self):
+        for task_cata in TASKS:
+
+
 
 ppanel=Ppanel()
 tpanel=Tpanel()
@@ -111,7 +111,7 @@ wpanel=Wpanel()
 COLUMN_WIDTH=30 
 
 def fillblank(s):
-    for i in range(0,30-len(s)):
+    for i in range(0,PAGE_SIZE-len(s)):
         s+=' '
     return s
 
